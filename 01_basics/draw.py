@@ -23,7 +23,7 @@ cv.line(blank, (100, 250), (300, 400), (255, 255, 255), thickness=3)
 cv.imshow("Linha", blank)
 
 # 5. Texto (as fontes Hershey não suportam acentos, por isso sem "á", "ç" etc.)
-cv.putText(blank, "Ola, OpenCV!", (0, 225), cv.FONT_HERSHEY_TRIPLEX, 1.0, (0, 255, 0), 2)
+cv.putText(blank, "Ola, OpenCV!", (0, 225), cv.FONT_HERSHEY_TRIPLEX, 1.0, (255, 255, 255), 2)
 cv.imshow("Texto", blank)
 
 cv.waitKey(0)
