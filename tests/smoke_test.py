@@ -1,4 +1,4 @@
-"""Smoke test: executa todos os scripts das seções 1 a 3 SEM abrir janelas e confere que não dão erro.
+"""Smoke test: executa todos os scripts da aula (00_aula, exceto Keras) e das seções 1 a 3 SEM abrir janelas e confere que não dão erro.
 
 Útil depois de atualizar o OpenCV (`pip install -U opencv-contrib-python`) para saber se algo quebrou.
 O capstone (04_capstone) fica de fora porque precisa do TensorFlow e do dataset do Kaggle.
@@ -15,6 +15,8 @@ ROOT = Path(__file__).resolve().parents[1]
 SCRIPTS = sorted(
     [*ROOT.glob("01_basics/*.py"), *ROOT.glob("02_advanced/*.py")]
     + [ROOT / "03_faces" / "face_detect.py", ROOT / "03_faces" / "face_recognition.py"]
+    # gabaritos da aula; os de Keras (cnn, aug) só rodam com TensorFlow instalado
+    + [p for p in ROOT.glob("00_aula/*.py") if not p.stem.endswith(("_cnn", "_aug"))]
 )
 
 

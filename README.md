@@ -27,6 +27,7 @@ Também foram renomeadas as pastas e arquivos (sem espaços, `#` ou maiúsculas)
 ## Estrutura
 
 ```
+00_aula/        Gabaritos da aula "a imagem é uma matriz": um script por slide (rode a partir de qualquer pasta)
 01_basics/      Seção 1: ler imagens/vídeos, desenhar, transformações, contornos, threshold
 02_advanced/    Seção 2: espaços de cor, blur, bitwise, máscaras, histogramas, gradientes
 03_faces/       Seção 3: detecção (Haar Cascade) e reconhecimento facial (LBPH)
