@@ -27,6 +27,7 @@ Também foram renomeadas as pastas e arquivos (sem espaços, `#` ou maiúsculas)
 ## Estrutura
 
 ```
+meu_codigo.py   Seu arquivo de prática: cole o código de cada slide e rode (funciona de qualquer pasta)
 00_aula/        Gabaritos da aula "a imagem é uma matriz": um script por slide (rode a partir de qualquer pasta)
 01_basics/      Seção 1: ler imagens/vídeos, desenhar, transformações, contornos, threshold
 02_advanced/    Seção 2: espaços de cor, blur, bitwise, máscaras, histogramas, gradientes

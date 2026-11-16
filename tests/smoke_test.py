@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SCRIPTS = sorted(
     [*ROOT.glob("01_basics/*.py"), *ROOT.glob("02_advanced/*.py")]
     + [ROOT / "03_faces" / "face_detect.py", ROOT / "03_faces" / "face_recognition.py"]
+    + [ROOT / "meu_codigo.py"]
     # gabaritos da aula; os de Keras (cnn, aug) só rodam com TensorFlow instalado
     + [p for p in ROOT.glob("00_aula/*.py") if not p.stem.endswith(("_cnn", "_aug"))]
 )
