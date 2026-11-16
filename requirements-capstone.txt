@@ -1,0 +1,5 @@
+# Dependências do capstone (04_capstone). Inclui as das seções 1-3.
+-r requirements.txt
+keras>=3.3
+tensorflow>=2.16
+scikit-learn>=1.4

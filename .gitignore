@@ -1,1 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
 .pylintrc
+
+# Modelo treinado do capstone (~140 MB) e datasets baixados
+*.keras
+04_capstone/input/
